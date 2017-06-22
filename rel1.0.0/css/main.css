@@ -1,0 +1,306 @@
+legend{
+	margin-bottom: 0 !important;
+}
+ /*classi di bootstrap */
+.container {
+	padding-left:0px!important;
+	padding-right:0px!important;
+}
+
+.page-header {
+	padding-bottom: 0px!important;
+}
+
+.row {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
+ /*classi di bootstrap */
+
+.img-responsive{
+	max-width: 100px;
+	min-width: 30px;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+footer{
+	background-color: #2c3e50;
+	margin: 0 !important;
+	color: white !important;
+	font-size: 12px;
+}
+
+footer > .text-small{
+	display: inline;
+}
+
+footer img{
+	width: 65px;
+}
+
+.credits{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 40px 20px 20px 20px !important;
+    
+}
+
+select{
+	background-color: white !important;
+}
+
+select.bs-select-hidden, select.selectpicker{
+	display: inline !important;
+}
+
+.btn-default{
+	background-color: #2c3e50;
+	border-width: 0;
+}
+
+
+.frames{
+	width: 100%;
+	height: 50vh;
+	border: 1px solid black;
+	background-color: black;
+}
+
+.page-header{
+	margin: 10px 0 0 !important;
+}
+
+@media (min-width: 1200px){
+	.container {
+    	width: 100% !important;
+    }
+}
+
+@media (min-width: 992px){
+	.container {
+    	width: 100% !important;
+    }
+}
+
+@media (min-width: 768px){
+	.container {
+    	width: 100% !important;
+	}
+
+	.frames{
+	height: 80vh;
+	}
+}
+
+
+.selectpicker{
+	background-color: white !important;
+}
+
+.slider-handle{
+	background-image: none !important;
+	background-color: #2c3e50 !important;
+
+}
+
+a:hover{
+	color: #18bc9c !important;
+}
+
+.btn-success{
+	background-color: #18bc9c;
+}
+
+.btn-default{
+	color: white !important;
+}
+
+.appfiltri{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tutti {
+	text-align: right;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.appfiltri{
+	padding-left: 42px;
+}
+
+.slider.slider-horizontal{
+	width: 100% !important;
+}
+
+.panel-success > .panel-body{
+	background-color: #2c3e50 !important;
+}
+
+.bootstrap-select.btn-group .dropdown-menu{
+	height:300px !important;
+}
+
+.logo {
+    float: left;
+    padding: 5.5px 15px;
+    font-size: 19px;
+    line-height: 21px;
+    height: 60px;
+}
+
+#logo-credits{
+    width: 80%;
+    margin: auto;
+    max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+	#logo-credits {
+        width: 100%;
+        margin-left: 0px;
+	}
+}
+
+/*pagina progetto*/
+.imgprog{
+    background-repeat: no-repeat;
+    color: #fff !important;
+    background-attachment: fixed;
+    padding: 15% 15% 20%;
+    margin: auto;
+}
+
+.imgprog h2 {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.imgprog h2 {
+    	display: inherit;
+	}
+
+	.imgprog{
+		height: 80vh;
+	}
+}
+
+.dimpad {
+	width: 100%;
+    height: auto;
+
+}
+
+#progetto .glyphicon, #text-perche .glyphicon, #contact .glyphicon, #credits .glyphicon, .panel-default .glyphicon{
+	font-size:35px;
+}
+
+
+
+#progetto, #text-perche, #contact{
+	padding-top: 20px;
+}
+
+#cose{
+	background-color: transparent;
+	
+}
+
+#comefunziona{
+	
+}
+
+#chisiamo{
+	
+}
+
+
+
+
+/*ultime aggiunte */
+#text-perche {
+margin: 40px auto !important;
+text-align: center !important;
+}
+
+.iconpad {
+	padding-right: 1%;
+}
+
+.repad {
+	vertical-align: middle;
+	margin-top: 10px !important;
+	float: left;
+}
+
+.paddingtop {
+	padding-top: 30px;
+	float: left;
+}
+
+.paddingtop2 {
+	margin-top: 4%;
+}
+
+.paddingbottom {
+	padding-bottom: 30px;
+}
+
+.lineseparator {
+	border-top:1px solid #2c3e50!important;
+	padding-top:2%;
+}
+
+.linesocial {
+	border-bottom:1px solid #fff!important;
+	padding-bottom: 2%;
+}
+
+.menomargin {
+	margin-left: -20px;
+}
+
+.menomarginimg {
+	margin-left: -10px;
+}
+
+.onlypadtop {
+	padding-top: 30px;
+}
+
+.footpadtop {
+	padding-top: 1% !important;
+}
+/* fine ultime aggiunte*/
+
+@media screen and (max-width: 767px) {
+	h1 .dimpad {
+		font-size: 20px;
+	} 
+}
+
+/* questa regola vale solo per il tablet! */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	h1 .dimpad {
+		font-size: 24px;
+	} 
+}
+
+/* questa regola vale solo per il desktop! */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	h1 .dimpad {
+		font-size: 28px;
+	} 
+}
+
+/* breakpoint large screen */
+@media screen and (min-width: 1200px) {
+	h1 .dimpad {
+		font-size: 36px;
+	}
+}
+

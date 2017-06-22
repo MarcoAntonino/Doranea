@@ -1,0 +1,6 @@
+User-agent: Googlebot
+
+Disallow: /private
+Disallow: /admin
+
+Sitemap: http://doranea.altervista.org/sitemap.xml
