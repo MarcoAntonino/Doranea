@@ -1,2 +1,2 @@
 # PVC
-Progetto degli Studenti ITS
+Progetto indipendente di un gruppo di Studenti dell'ITS Piemonte.
